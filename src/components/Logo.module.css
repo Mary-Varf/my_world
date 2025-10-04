@@ -1,0 +1,10 @@
+:global(a) {
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 52px;
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--color-light--1);
+}
