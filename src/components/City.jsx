@@ -17,7 +17,6 @@ function City() {
   const { getCity, currentCity, isLoading } = useCities();
   const { id } = useParams();
 
-  /*ellint-disable*/
   useEffect(() => {
     getCity(id);
   }, [id]);
